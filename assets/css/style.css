@@ -1,0 +1,83 @@
+body {
+    background-image: url(/assets/img/img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+nav {
+    background-color: rgb(59, 60, 59);
+}
+
+.titulo{
+    color: #ffffaa;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imagen {
+    margin-top: 6px;
+    max-width: 600px;
+}
+
+.centrar-imagen {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.card-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.p1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3rem;
+    font-weight: 150;
+    font-style: normal;
+}
+
+.p2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+    font-weight: 30;
+    font-style: italic;
+}
+
+.form-control {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 150px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s, transform 0.5s;
+}
+
+.btn:hover {
+    background-color: #013063;
+    transform: scale(1.05);
+}
+
+
